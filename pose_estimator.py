@@ -32,15 +32,40 @@ class PoseEstimator:
                 raise ValueError('No poses detected')
             get_pose = results.pose_landmarks.landmark
             lm = self.mp_pose.PoseLandmark
-            wrist_x = get_pose[lm.LEFT_WRIST].x*image_width
-            wrist_y = get_pose[lm.LEFT_WRIST].y*image_height
-            elbow_x = get_pose[lm.LEFT_ELBOW].x*image_width
-            elbow_y = get_pose[lm.LEFT_ELBOW].y*image_height
-            shoulder_x = get_pose[lm.LEFT_SHOULDER].x*image_width
-            shoulder_y = get_pose[lm.LEFT_SHOULDER].y*image_height
+            
+            left_wrist_x = get_pose[lm.LEFT_WRIST].x*image_width
+            left_wrist_y = get_pose[lm.LEFT_WRIST].y*image_height
+            left_elbow_x = get_pose[lm.LEFT_ELBOW].x*image_width
+            left_elbow_y = get_pose[lm.LEFT_ELBOW].y*image_height
+            left_shoulder_x = get_pose[lm.LEFT_SHOULDER].x*image_width
+            left_shoulder_y = get_pose[lm.LEFT_SHOULDER].y*image_height
+            left_hip_x = get_pose[lm.LEFT_HIP].x*image_width
+            left_hip_y = get_pose[lm.LEFT_HIP].y*image_height
+            left_knee_x = get_pose[lm.LEFT_KNEE].x*image_width
+            left_knee_y = get_pose[lm.LEFT_KNEE].y*image_height
+            left_ankle_x = get_pose[lm.LEFT_ANKLE].x*image_width
+            left_ankle_y = get_pose[lm.LEFT_ANKLE].y*image_height
 
-            return (wrist_x, wrist_y, elbow_x, 
-                    elbow_y, shoulder_x, shoulder_y)
+            right_wrist_x = get_pose[lm.RIGHT_WRIST].x*image_width
+            right_wrist_y = get_pose[lm.RIGHT_WRIST].y*image_height
+            right_elbow_x = get_pose[lm.RIGHT_ELBOW].x*image_width
+            right_elbow_y = get_pose[lm.RIGHT_ELBOW].y*image_height
+            right_shoulder_x = get_pose[lm.RIGHT_SHOULDER].x*image_width
+            right_shoulder_y = get_pose[lm.RIGHT_SHOULDER].y*image_height
+            right_hip_x = get_pose[lm.RIGHT_HIP].x*image_width
+            right_hip_y = get_pose[lm.RIGHT_HIP].y*image_height
+            right_knee_x = get_pose[lm.RIGHT_KNEE].x*image_width
+            right_knee_y = get_pose[lm.RIGHT_KNEE].y*image_height
+            right_ankle_x = get_pose[lm.RIGHT_ANKLE].x*image_width
+            right_ankle_y = get_pose[lm.RIGHT_ANKLE].y*image_height
+
+            nose_x = get_pose[lm.NOSE].x*image_width
+            nose_y = get_pose[lm.NOSE].y*image_height
+
+            return (left_wrist_x, left_wrist_y, left_elbow_x, left_elbow_y, left_shoulder_x, left_shoulder_y, left_hip_x, left_hip_y, left_knee_x, left_knee_y, left_ankle_x, left_ankle_y,
+                    right_wrist_x, right_wrist_y, right_elbow_x, right_elbow_y, right_shoulder_x, right_shoulder_y, right_hip_x, right_hip_y, right_knee_x, right_knee_y, right_ankle_x, right_ankle_y,
+                    nose_x,nose_y)
+
         except Exception as e:
             print(e)
             return None
@@ -55,35 +80,126 @@ class PoseEstimator:
             self.coords_array.pop(0)
         self.coords_array.append(pose_coords)
         smoothened_coords = np.array(self.coords_array).mean(axis=0)
-        
+
         return tuple(smoothened_coords)
         
     def get_annotated_image(self, image, pose_coords):
         """
         Function to draw and visualize the coordinates in the image.
         """
-        wrist_x, wrist_y, elbow_x, elbow_y, shoulder_x, shoulder_y = pose_coords
+        left_wrist_x, left_wrist_y, left_elbow_x, left_elbow_y, left_shoulder_x, left_shoulder_y, left_hip_x, left_hip_y, left_knee_x, left_knee_y, left_ankle_x, left_ankle_y, right_wrist_x, right_wrist_y, right_elbow_x, right_elbow_y, right_shoulder_x, right_shoulder_y, right_hip_x, right_hip_y, right_knee_x, right_knee_y, right_ankle_x, right_ankle_y, nose_x, nose_y = pose_coords
         
         annotated_image = image.copy()
         
+        ##Drawing Cirlces
+        #Nose
         cv2.circle(annotated_image,
-                   (int(wrist_x), int(wrist_y)), 
+                   (int(nose_x), int(nose_y)),
+                   10,(0,0,255),-1)
+        #Shoulders
+        cv2.circle(annotated_image,
+                   (int(left_shoulder_x), int(left_shoulder_y)),
                    10,(0,0,255),-1)
         cv2.circle(annotated_image,
-                   (int(elbow_x), int(elbow_y)),
+                   (int(right_shoulder_x), int(right_shoulder_y)),
+                   10,(0,0,255),-1)
+        #Elbows
+        cv2.circle(annotated_image,
+                   (int(left_elbow_x), int(left_elbow_y)),
                    10,(0,0,255),-1)
         cv2.circle(annotated_image,
-                   (int(shoulder_x), int(shoulder_y)),
+                   (int(right_elbow_x), int(right_elbow_y)),
                    10,(0,0,255),-1)
-
+        #Wrists
+        cv2.circle(annotated_image,
+                   (int(left_wrist_x), int(left_wrist_y)), 
+                   10,(0,0,255),-1)
+        cv2.circle(annotated_image,
+                   (int(right_wrist_x), int(right_wrist_y)), 
+                   10,(0,0,255),-1)
+        #Hips
+        cv2.circle(annotated_image,
+                   (int(left_hip_x), int(left_hip_y)), 
+                   10,(0,0,255),-1)
+        cv2.circle(annotated_image,
+                   (int(right_hip_x), int(right_hip_y)), 
+                   10,(0,0,255),-1)
+        #Knees
+        cv2.circle(annotated_image,
+                   (int(left_knee_x), int(left_knee_y)), 
+                   10,(0,0,255),-1)
+        cv2.circle(annotated_image,
+                   (int(right_knee_x), int(right_knee_y)), 
+                   10,(0,0,255),-1)
+        #Ankles
+        cv2.circle(annotated_image,
+                   (int(left_ankle_x), int(left_ankle_y)), 
+                   10,(0,0,255),-1)
+        cv2.circle(annotated_image,
+                   (int(right_ankle_x), int(right_ankle_y)), 
+                   10,(0,0,255),-1)
+    
+        ##Drawing Lines
+        #Nose-Shoulder
         cv2.line(annotated_image,
-                 (int(wrist_x), int(wrist_y)),
-                 (int(elbow_x), int(elbow_y)),
+                 (int(nose_x), int(nose_y)),
+                 (int((left_shoulder_x+right_shoulder_x)/2), int((left_shoulder_y+right_shoulder_y)/2)),
+                 (0,0,255),3)
+        #Shoulder
+        cv2.line(annotated_image,
+                 (int(left_shoulder_x), int(left_shoulder_y)),
+                 (int(right_shoulder_x), int(right_shoulder_y)),
+                 (0,0,255),3)
+        #Shoulder-Elbow
+        cv2.line(annotated_image,
+                 (int(left_shoulder_x), int(left_shoulder_y)),
+                 (int(left_elbow_x), int(left_elbow_y)),
                  (0,0,255),3)
         cv2.line(annotated_image,
-                 (int(shoulder_x),int(shoulder_y)),
-                 (int(elbow_x),int(elbow_y)),
-                 (0,255,255),3)
+                 (int(right_shoulder_x), int(right_shoulder_y)),
+                 (int(right_elbow_x), int(right_elbow_y)),
+                 (0,0,255),3)
+        #Elbow-Wrist
+        cv2.line(annotated_image,
+                 (int(left_elbow_x), int(left_elbow_y)),
+                 (int(left_wrist_x), int(left_wrist_y)),
+                 (0,0,255),3)
+        cv2.line(annotated_image,
+                 (int(right_elbow_x), int(right_elbow_y)),
+                 (int(right_wrist_x), int(right_wrist_y)),
+                 (0,0,255),3)                     
+        #Shoulder-Hip
+        cv2.line(annotated_image,
+                 (int(left_shoulder_x), int(left_shoulder_y)),
+                 (int(left_hip_x), int(left_hip_y)),
+                 (0,0,255),3)   
+        cv2.line(annotated_image,
+                 (int(right_shoulder_x), int(right_shoulder_y)),
+                 (int(right_hip_x), int(right_hip_y)),
+                 (0,0,255),3)
+        #Hip
+        cv2.line(annotated_image,
+                 (int(left_hip_x), int(left_hip_y)),
+                 (int(right_hip_x), int(right_hip_y)),
+                 (0,0,255),3)   
+        #Hip-Knee
+        cv2.line(annotated_image,
+                 (int(left_hip_x), int(left_hip_y)),
+                 (int(left_knee_x), int(left_knee_y)),
+                 (0,0,255),3)   
+        cv2.line(annotated_image,
+                 (int(right_hip_x), int(right_hip_y)),
+                 (int(right_knee_x), int(right_knee_y)),
+                 (0,0,255),3)
+        #Knee-Ankle
+        cv2.line(annotated_image,
+                 (int(left_knee_x), int(left_knee_y)),
+                 (int(left_ankle_x), int(left_ankle_y)),
+                 (0,0,255),3)   
+        cv2.line(annotated_image,
+                 (int(right_knee_x), int(right_knee_y)),
+                 (int(right_ankle_x), int(right_ankle_y)),
+                 (0,0,255),3)  
         
         return annotated_image
     def write_image(self, image):
@@ -91,8 +207,8 @@ class PoseEstimator:
         Function for displaying the image.
         """
         if self.writer is None:
-            fourcc = cv2.VideoWriter_fourcc(*"MJPG")
-            self.writer = cv2.VideoWriter("test6.mp4", fourcc, 25,
+            fourcc = cv2.VideoWriter_fourcc(*"MPEG")
+            self.writer = cv2.VideoWriter("test6.avi", fourcc, 25,
                 (image.shape[1], image.shape[0]), True)
         
         self.writer.write(image)

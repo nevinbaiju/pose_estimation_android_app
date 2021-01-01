@@ -10,11 +10,18 @@ import collections
 
 class PoseEstimator:
     
-    def __init__(self, window_size=8):
+    def __init__(self, window_size=8, smoothing_function=None):
         """
         Window Size to specify how much frames to be considered for smoothing
         """
-        self.window_size = window_size
+        if(smoothing_function == 'savgol') and ((window_size % 2) == 0):
+            print('Is Here')
+            print(window_size)
+            self.window_size = window_size - 1
+            print(self.window_size)
+        else:
+            self.window_size = window_size
+        self.smoothing_function = smoothing_function
         self.mp_drawing = mp.solutions.drawing_utils
         self.mp_pose = mp.solutions.pose
         self.pose = self.mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.1)
@@ -79,8 +86,22 @@ class PoseEstimator:
         if len(self.coords_array) == self.window_size:
             self.coords_array.pop(0)
         self.coords_array.append(pose_coords)
-        smoothened_coords = np.array(self.coords_array).mean(axis=0)
-
+        if self.smoothing_function == 'mean':
+            smoothened_coords = np.array(self.coords_array).mean(axis=0)
+        elif self.smoothing_function == 'savgol':
+            try:
+                savgol = lambda arr: savgol_filter(arr, self.window_size, 1)[-1]
+                coords_np_arr = np.array(self.coords_array)
+                smoothened_coords = np.apply_along_axis(savgol, 0, 
+                                                        coords_np_arr)
+                self.coords_array.pop()
+                self.coords_array.append(smoothened_coords)
+            except ValueError as ve:
+                print(ve)
+                return pose_coords
+        else:
+            return pose_coords
+        
         return tuple(smoothened_coords)
         
     def get_annotated_image(self, image, pose_coords):
@@ -207,8 +228,8 @@ class PoseEstimator:
         Function for displaying the image.
         """
         if self.writer is None:
-            fourcc = cv2.VideoWriter_fourcc(*"MPEG")
-            self.writer = cv2.VideoWriter("test6.avi", fourcc, 25,
+            fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+            self.writer = cv2.VideoWriter("test6.mp4", fourcc, 25,
                 (image.shape[1], image.shape[0]), True)
         
         self.writer.write(image)
@@ -226,20 +247,23 @@ class PoseEstimator:
         
         capture = cv2.VideoCapture(0)
         while (capture.isOpened()):
+            # Read a frame
             ret, image = capture.read(0)
             if ret:
                 try:
-                    coords = self.get_pose_coords(image)
-                    if coords:
-                        pose_coords = self.get_pose_coords(image)
+                    # Get the pose coordinates in a tuple
+                    pose_coords = self.get_pose_coords(image)
+                    if pose_coords:
+                        # If poses are detected then apply the smoothing filter
+                        # And annotate the image
                         pose_coords = self.smoothen_coords(pose_coords)
+                        annotated_image = self.get_annotated_image(image, pose_coords)
                     else:
+                        # If no poses are detected, then just display the frame
                         pose_coords = None
                         self.write_image(image)
                         continue
-                    if pose_coords:
-                        annotated_image = self.get_annotated_image(image, pose_coords)
-                    
+                    # Write the annotated image
                     key = self.write_image(annotated_image)
                 except ValueError as ve:
                     print(ve)
@@ -255,9 +279,3 @@ class PoseEstimator:
         
 s = PoseEstimator(window_size=8)
 s.run_estimator()
-
-### To Do
-
-# 1. Add the refactored savgol filter function
-# 2. Add the refactored angle function
-# 3. Add better documentation

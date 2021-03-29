@@ -1,0 +1,548 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/069b895255ebcf7eb07d3df82289b116/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/7172c4d623d958ad8f8fceeacd341dfc/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.0.2] /home/liju/.gradle/caches/transforms-2/files-2.1/c3c45bb4af4f6c35a52ee78f8bb7ee1f/jetified-face-detection-16.0.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c0748b4f134e4029f94d9b705714cda4/jetified-pose-detection-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ec9efe24c0a8bb1a6cd7d5ceeb3b5ca5/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/87ac0cb8801084f9e52c860ba2474e27/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/8bdf8136df02d55457011bb6187552d3/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/791e3056264ff4049d2c90047ba3ed73/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/413e28f710da73f11b55251047a2fc4b/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/2aece73c54b01e31dfa92c2444334dd9/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4e039017508058e03141616af225b4eb/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/51f3317acdc1993a7b17292fd5dd8956/jetified-play-services-vision-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/4cca586e186c1fc6cf2e6b4f2b055cec/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/6365762d8829fe465b6967780f1c5a67/jetified-object-detection-common-16.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e13316ba1574d5163eb2a69ec1bb107b/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/74bd555a2897512bd2de5647800c5e21/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d930e4f464eb565c51be526d493dd830/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/5bccdb2fb00f187b823d3462c57f38a4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d983c5dce2af78069734351e5fa6e556/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aadb20eb997c1e45f7da0060950caf48/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a47ac503a53104cb9453ec1628337d0a/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/196689ac7938efd9fe7bde63e1bf8c1a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6f621cac338d61e4657df2851636b5fa/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/adab60b679fd605dc0fe365f8feea7d6/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/f128d6cea3d455c774f9a9ff8c16c636/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ff664a25e1391f1156cfb2e2374c7147/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/800e078cc282d514d76b3155dbf4186f/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/31435e025cdccb9fb8afecf6a35971cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ca6f5dc978f1f081f1b8afbaed8e2aeb/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/b5466dcfe12488b715be006750d7ab23/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2a612bd4c425dcfbfc1a3a304e287881/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c12747f68fadffbb0e0ad871896b687f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4641752ec657f9b4a42d6a06f25d7d22/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4105de63edbfe1f7a89f44426cee4e60/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a30017872b14105a400314921d5cb62e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e7e745e2fbeb2e1d644c0f5f8cdb581d/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d86a462a03ac6ffb4f3ab144448281f8/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aa817d39ca4f9f9f764e5a0b70163814/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/22f084678c0c8123034752ff82b9a006/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1810aea4ce2a1227f21772ff132d1844/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6118f679eabfffe3c12f082544a87853/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6ba1de9be899b775fb2e622bcf9ee329/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/liju/.gradle/caches/transforms-2/files-2.1/656c1ef9c96eb9844c4fefaa31eea625/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d2101a930dfe75015065873702e5c65e/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /home/liju/.gradle/caches/transforms-2/files-2.1/a05dfcc3aa4277a5e6ff3acfe3c85fdc/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+	package
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:5:5-43
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-103:12
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+MERGED from [androidx.multidex:multidex:2.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/069b895255ebcf7eb07d3df82289b116/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/069b895255ebcf7eb07d3df82289b116/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/7172c4d623d958ad8f8fceeacd341dfc/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/7172c4d623d958ad8f8fceeacd341dfc/jetified-barcode-scanning-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] /home/liju/.gradle/caches/transforms-2/files-2.1/c3c45bb4af4f6c35a52ee78f8bb7ee1f/jetified-face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] /home/liju/.gradle/caches/transforms-2/files-2.1/c3c45bb4af4f6c35a52ee78f8bb7ee1f/jetified-face-detection-16.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c0748b4f134e4029f94d9b705714cda4/jetified-pose-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c0748b4f134e4029f94d9b705714cda4/jetified-pose-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ec9efe24c0a8bb1a6cd7d5ceeb3b5ca5/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ec9efe24c0a8bb1a6cd7d5ceeb3b5ca5/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/87ac0cb8801084f9e52c860ba2474e27/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/87ac0cb8801084f9e52c860ba2474e27/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/8bdf8136df02d55457011bb6187552d3/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/8bdf8136df02d55457011bb6187552d3/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/791e3056264ff4049d2c90047ba3ed73/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/791e3056264ff4049d2c90047ba3ed73/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/413e28f710da73f11b55251047a2fc4b/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/413e28f710da73f11b55251047a2fc4b/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/2aece73c54b01e31dfa92c2444334dd9/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /home/liju/.gradle/caches/transforms-2/files-2.1/2aece73c54b01e31dfa92c2444334dd9/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4e039017508058e03141616af225b4eb/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4e039017508058e03141616af225b4eb/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/51f3317acdc1993a7b17292fd5dd8956/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/51f3317acdc1993a7b17292fd5dd8956/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/4cca586e186c1fc6cf2e6b4f2b055cec/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/4cca586e186c1fc6cf2e6b4f2b055cec/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/6365762d8829fe465b6967780f1c5a67/jetified-object-detection-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/6365762d8829fe465b6967780f1c5a67/jetified-object-detection-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e13316ba1574d5163eb2a69ec1bb107b/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e13316ba1574d5163eb2a69ec1bb107b/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/74bd555a2897512bd2de5647800c5e21/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/74bd555a2897512bd2de5647800c5e21/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d930e4f464eb565c51be526d493dd830/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d930e4f464eb565c51be526d493dd830/jetified-mediapipe-internal-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/5bccdb2fb00f187b823d3462c57f38a4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/5bccdb2fb00f187b823d3462c57f38a4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d983c5dce2af78069734351e5fa6e556/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d983c5dce2af78069734351e5fa6e556/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aadb20eb997c1e45f7da0060950caf48/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aadb20eb997c1e45f7da0060950caf48/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a47ac503a53104cb9453ec1628337d0a/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a47ac503a53104cb9453ec1628337d0a/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/196689ac7938efd9fe7bde63e1bf8c1a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/196689ac7938efd9fe7bde63e1bf8c1a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6f621cac338d61e4657df2851636b5fa/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6f621cac338d61e4657df2851636b5fa/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/adab60b679fd605dc0fe365f8feea7d6/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/adab60b679fd605dc0fe365f8feea7d6/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/f128d6cea3d455c774f9a9ff8c16c636/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/f128d6cea3d455c774f9a9ff8c16c636/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ff664a25e1391f1156cfb2e2374c7147/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ff664a25e1391f1156cfb2e2374c7147/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/800e078cc282d514d76b3155dbf4186f/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/800e078cc282d514d76b3155dbf4186f/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/31435e025cdccb9fb8afecf6a35971cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/31435e025cdccb9fb8afecf6a35971cd/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ca6f5dc978f1f081f1b8afbaed8e2aeb/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ca6f5dc978f1f081f1b8afbaed8e2aeb/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/b5466dcfe12488b715be006750d7ab23/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/liju/.gradle/caches/transforms-2/files-2.1/b5466dcfe12488b715be006750d7ab23/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2a612bd4c425dcfbfc1a3a304e287881/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2a612bd4c425dcfbfc1a3a304e287881/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c12747f68fadffbb0e0ad871896b687f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c12747f68fadffbb0e0ad871896b687f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4641752ec657f9b4a42d6a06f25d7d22/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4641752ec657f9b4a42d6a06f25d7d22/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4105de63edbfe1f7a89f44426cee4e60/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/4105de63edbfe1f7a89f44426cee4e60/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a30017872b14105a400314921d5cb62e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a30017872b14105a400314921d5cb62e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e7e745e2fbeb2e1d644c0f5f8cdb581d/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e7e745e2fbeb2e1d644c0f5f8cdb581d/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d86a462a03ac6ffb4f3ab144448281f8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d86a462a03ac6ffb4f3ab144448281f8/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aa817d39ca4f9f9f764e5a0b70163814/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aa817d39ca4f9f9f764e5a0b70163814/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/22f084678c0c8123034752ff82b9a006/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/22f084678c0c8123034752ff82b9a006/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1810aea4ce2a1227f21772ff132d1844/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1810aea4ce2a1227f21772ff132d1844/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6118f679eabfffe3c12f082544a87853/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6118f679eabfffe3c12f082544a87853/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6ba1de9be899b775fb2e622bcf9ee329/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6ba1de9be899b775fb2e622bcf9ee329/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/liju/.gradle/caches/transforms-2/files-2.1/656c1ef9c96eb9844c4fefaa31eea625/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/liju/.gradle/caches/transforms-2/files-2.1/656c1ef9c96eb9844c4fefaa31eea625/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d2101a930dfe75015065873702e5c65e/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:5:5-6:41
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d2101a930dfe75015065873702e5c65e/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:5:5-6:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /home/liju/.gradle/caches/transforms-2/files-2.1/a05dfcc3aa4277a5e6ff3acfe3c85fdc/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /home/liju/.gradle/caches/transforms-2/files-2.1/a05dfcc3aa4277a5e6ff3acfe3c85fdc/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+	tools:overrideLibrary
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+	android:targetSdkVersion
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+		MERGED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-16:63
+		INJECTED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:18:5-59
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:18:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:23:22-62
+application
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:25:5-101:19
+MERGED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c0748b4f134e4029f94d9b705714cda4/jetified-pose-detection-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c0748b4f134e4029f94d9b705714cda4/jetified-pose-detection-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ec9efe24c0a8bb1a6cd7d5ceeb3b5ca5/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/ec9efe24c0a8bb1a6cd7d5ceeb3b5ca5/jetified-pose-detection-accurate-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/87ac0cb8801084f9e52c860ba2474e27/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/87ac0cb8801084f9e52c860ba2474e27/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] /home/liju/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/51f3317acdc1993a7b17292fd5dd8956/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/51f3317acdc1993a7b17292fd5dd8956/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/4cca586e186c1fc6cf2e6b4f2b055cec/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/4cca586e186c1fc6cf2e6b4f2b055cec/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/5bccdb2fb00f187b823d3462c57f38a4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/5bccdb2fb00f187b823d3462c57f38a4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aadb20eb997c1e45f7da0060950caf48/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/aadb20eb997c1e45f7da0060950caf48/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a47ac503a53104cb9453ec1628337d0a/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/a47ac503a53104cb9453ec1628337d0a/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6118f679eabfffe3c12f082544a87853/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/6118f679eabfffe3c12f082544a87853/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/liju/.gradle/caches/transforms-2/files-2.1/656c1ef9c96eb9844c4fefaa31eea625/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/liju/.gradle/caches/transforms-2/files-2.1/656c1ef9c96eb9844c4fefaa31eea625/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d2101a930dfe75015065873702e5c65e/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/d2101a930dfe75015065873702e5c65e/jetified-tensorflow-lite-2.1.0/AndroidManifest.xml:8:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /home/liju/.gradle/caches/transforms-2/files-2.1/e270a6e88d0fcab34dc57babf6858d5a/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:27:9-44
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:29:9-47
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:26:9-61
+meta-data#com.google.android.gms.version
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:31:9-33:68
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/1b90b1be4df66705fb91818db0752e78/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:33:13-66
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:32:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:37:9-39:51
+	android:value
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:38:13-64
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:41:9-49:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:43:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:42:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:47:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:52:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:56:9-60:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:58:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:57:13-53
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:62:9-66:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:64:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:63:13-60
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:68:9-72:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:70:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:69:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:74:9-77:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:76:13-36
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:75:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:79:9-83:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:81:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:80:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:85:9-89:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:87:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:86:13-62
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:91:9-95:20
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:93:13-36
+	android:theme
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:92:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:97:9-99:39
+	android:exported
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from /home/liju/Downloads/AB/mlkit-master/android/vision-quickstart/app/src/main/AndroidManifest.xml:98:13-56
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:9:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/a8789dcb9d06cb9b4cc48c0c30f89362/jetified-object-detection-16.2.1/AndroidManifest.xml:12:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/ec20da0e13d5e2da908e4abffd8e9228/jetified-object-detection-custom-16.2.1/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/e8bdc13bb8cf76c9d349a916d4507348/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/c55b5a84ef99f01667721ad64718daa1/jetified-image-labeling-17.0.0/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] /home/liju/.gradle/caches/transforms-2/files-2.1/60419dcfcebafb633f317be0df62bdbd/jetified-image-labeling-custom-16.2.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] /home/liju/.gradle/caches/transforms-2/files-2.1/bde40ce1d9bf425046eb5949ce7edb14/jetified-play-services-mlkit-barcode-scanning-16.1.2/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] /home/liju/.gradle/caches/transforms-2/files-2.1/647f1de7bdc8702aa0a713086dff54e1/jetified-play-services-mlkit-face-detection-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] /home/liju/.gradle/caches/transforms-2/files-2.1/04fba289064bc7c11e1956ef29d7a970/jetified-vision-internal-vkp-17.0.1/AndroidManifest.xml:12:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/2be839df91f8df1c241a75bcfa65e331/jetified-pose-detection-common-17.0.0/AndroidManifest.xml:12:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/90fec0dc3a2db1397d5a122982ba2252/jetified-vision-common-16.1.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/10d384e871106d387a5cc35a2cb072a7/jetified-common-17.0.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/liju/.gradle/caches/transforms-2/files-2.1/548e9fe7c0dbc0938b6828b2531865ee/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/liju/.gradle/caches/transforms-2/files-2.1/cfe5579bfd3e0405e80a9d4f73b47ec1/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="997e2da0-17a3-458f-87aa-869b17ffa6d4" name="Default Changelist" comment="first commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../pose_estimation_key/pose_estimation.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l0OUWfhO5KGknJxx9ai1WHtQnY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ApkExportedModule" value="ML_Kit_Vision_Quickstart.app" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/home/hansolo/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/ActionBarContainer.java_SELECTED" value="ActionBarContainer" />
+    <property name="android-custom-view/home/hansolo/Work/KR-SAN/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/CameraSourcePreview.java_SELECTED" value="CameraSourcePreview" />
+    <property name="android-custom-view/home/hansolo/Work/KR-SAN/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/GraphicOverlay.java_SELECTED" value="GraphicOverlay" />
+    <property name="android-custom-view/home/liju/ml/ml/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/CameraSourcePreview.java_SELECTED" value="CameraSourcePreview" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/home/hansolo/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/ActionBarContainer.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/home/hansolo/Work/KR-SAN/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/CameraSourcePreview.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/home/hansolo/Work/KR-SAN/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/GraphicOverlay.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/home/liju/ml/ml/vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo/CameraSourcePreview.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recommended.upgrade.last.time.stamp" value="1606731480855" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="lijuml" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="proguard" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/posedetector" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ML_Kit_Vision_Quickstart.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="true" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997e2da0-17a3-458f-87aa-869b17ffa6d4" name="Default Changelist" comment="" />
+      <created>1606730557313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606730557313</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1611040974832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611040974832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="277" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612512439945">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="693" y="277" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1003@0.27.1920.1003" timestamp="1612512439945" />
+    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1611042182745">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1611042182745" />
+    <state x="631" y="199" width="424" height="491" key="FileChooserDialogImpl" timestamp="1612516416891">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="631" y="199" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1003@0.27.1920.1003" timestamp="1612516416891" />
+    <state width="1874" height="198" key="GridCell.Tab.0.bottom" timestamp="1617003238128">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state width="1874" height="198" key="GridCell.Tab.0.bottom/0.27.1920.1003@0.27.1920.1003" timestamp="1617003238128" />
+    <state width="1874" height="198" key="GridCell.Tab.0.center" timestamp="1617003238126">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state width="1874" height="198" key="GridCell.Tab.0.center/0.27.1920.1003@0.27.1920.1003" timestamp="1617003238126" />
+    <state width="1874" height="198" key="GridCell.Tab.0.left" timestamp="1617003238125">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state width="1874" height="198" key="GridCell.Tab.0.left/0.27.1920.1003@0.27.1920.1003" timestamp="1617003238125" />
+    <state width="1874" height="198" key="GridCell.Tab.0.right" timestamp="1617003238127">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state width="1874" height="198" key="GridCell.Tab.0.right/0.27.1920.1003@0.27.1920.1003" timestamp="1617003238127" />
+    <state x="449" y="163" width="1022" height="737" key="SettingsEditor" timestamp="1612519534494">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="449" y="163" width="1022" height="737" key="SettingsEditor/0.27.1920.1003@0.27.1920.1003" timestamp="1612519534494" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1611044976736">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1611044976736" />
+    <state x="617" y="181" width="676" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612968659196">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="617" y="181" width="676" height="702" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1003@0.27.1920.1003" timestamp="1612968659196" />
+    <state x="500" y="173" width="1006" height="740" key="find.popup" timestamp="1613553445251">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="500" y="173" width="1006" height="740" key="find.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1613553445251" />
+    <state x="716" y="275" width="477" height="521" key="refactoring.ChangeSignatureDialog" timestamp="1612499727352">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="716" y="275" width="477" height="521" key="refactoring.ChangeSignatureDialog/0.27.1920.1003@0.27.1920.1003" timestamp="1612499727352" />
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1613027235321">
+      <screen x="0" y="27" width="1920" height="1003" />
+    </state>
+    <state x="623" y="246" width="672" height="678" key="search.everywhere.popup/0.27.1920.1003@0.27.1920.1003" timestamp="1613027235321" />
+  </component>
+</project>

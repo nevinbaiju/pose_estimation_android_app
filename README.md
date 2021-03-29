@@ -11,6 +11,9 @@ Features that are included in this Quickstart app:
 
 ## Getting Started
 
+* Android folder contains the app code
+* The code folder contains the feature modules and test notebooks.
+
 * Run the sample code on your Android device or emulator
 * Try extending the code to add new features and functionality
 
@@ -22,6 +25,18 @@ It uses the camera preview as input and contains these API workflows: Object det
 * Pose Detection
     * Performance Mode -- Allows you to switch between "Fast" and "Accurate" operation mode
     * Show In-Frame Likelihood -- Displays InFrameLikelihood confidence within the app
+
+## App Features
+The additional functionalities added will be explained in detail here.
+* Coordinate Smoothing
+    * The output coordinates from the model are stored in an array of a specific size and the mean value is taken to lower the stuttering movements of the coordinates and produce a smoother movement. Things to note is, a minor lag is introduced to the output as the consequence of taking the mean value, but as long as the array size is small it's negligible.
+* Pose Comparison
+    * This module compares angles at the specific joints with the predefined angles and returns an error value based on how close the angles from the output as to the predefined ones. This enables us to see if the current output pose is similar to the one we defined. As of now, the poses are defined in an array inside the function, future implementations can improve this.
+* Dynamic drwaing fucntion
+    * Inorder to improve the user experience the drawing only starts after all the joints are on camera.
+    * The output of the pose comparison is used to dynamically draw the line colors in such a way that, as the output coordinates are close to the predefined pose the lines get greener in color and when they are not the lines get red. This is to give visual feedback on the pose comparison. The dynamic coloring module only kicks in once a certain threshold has reached. the threshold is calculated based on the error values returned from the comparison module.
+* Alignment Validation
+    * The model have a tendency to wrongly classify the left and right shoulders when the person in the image is too close to the camera. This module checks with the pose that's defined and based on that, the wrong classified coordinates are dumped. 
 
 
 ## Support

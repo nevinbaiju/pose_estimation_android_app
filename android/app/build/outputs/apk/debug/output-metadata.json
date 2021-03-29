@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.google.mlkit.vision.demo",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 11,
+      "versionName": "1.11",
+      "enabled": true,
+      "outputFile": "vision-quickstart-debug.apk"
+    }
+  ]
+}

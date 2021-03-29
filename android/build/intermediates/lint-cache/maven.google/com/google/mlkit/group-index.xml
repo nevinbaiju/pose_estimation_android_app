@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.google.mlkit>
+  <barcode-scanning versions="16.0.0,16.0.1,16.0.2,16.0.3,16.1.0,16.1.1"/>
+  <common versions="16.0.0,16.0.1,16.1.0,17.0.0,17.1.0,17.1.1"/>
+  <digital-ink-recognition versions="16.0.0,16.1.0"/>
+  <entity-extraction versions="16.0.0-beta1"/>
+  <face-detection versions="16.0.0,16.0.1,16.0.2,16.0.3,16.0.4,16.0.5"/>
+  <image-labeling versions="16.0.0,16.1.0,16.2.0,17.0.0,17.0.1,17.0.2"/>
+  <image-labeling-automl versions="16.0.0,16.1.0,16.2.0,16.2.1"/>
+  <image-labeling-common versions="16.0.0,16.1.0,16.2.0,16.2.1,17.0.0"/>
+  <image-labeling-custom versions="16.0.0,16.1.0,16.2.0,16.2.1,16.3.0,16.3.1"/>
+  <image-labeling-default-common versions="16.0.0"/>
+  <language-id versions="16.0.0,16.1.0,16.1.1"/>
+  <linkfirebase versions="16.0.0,16.0.1,16.1.0"/>
+  <mediapipe-internal versions="16.0.0,16.0.1-beta1,16.1.0-beta1"/>
+  <object-detection versions="16.0.0,16.1.0,16.2.0,16.2.1,16.2.2,16.2.3"/>
+  <object-detection-common versions="16.0.0,16.1.0,16.2.0,16.2.1,17.0.0"/>
+  <object-detection-custom versions="16.0.0,16.1.0,16.2.0,16.2.1,16.3.0,16.3.1"/>
+  <pose-detection versions="16.0.0,17.0.0,17.0.1-beta1,17.0.1-beta2"/>
+  <pose-detection-accurate versions="17.0.0,17.0.1-beta1,17.0.1-beta2"/>
+  <pose-detection-common versions="17.0.0,17.0.1-beta1,17.1.0-beta1"/>
+  <smart-reply versions="16.0.0,16.1.0,16.1.1"/>
+  <translate versions="16.0.0,16.1.0,16.1.1"/>
+  <vision-common versions="16.0.0,16.0.1,16.1.0,16.2.0,16.3.0"/>
+  <vision-internal-vkp versions="16.0.0,17.0.0,17.0.1,18.0.0"/>
+</com.google.mlkit>

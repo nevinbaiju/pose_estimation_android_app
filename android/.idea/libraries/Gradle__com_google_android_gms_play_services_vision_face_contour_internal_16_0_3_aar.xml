@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-vision-face-contour-internal:16.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eaf19abbde1a6981fa8c4f8756e26be5/jetified-play-services-vision-face-contour-internal-16.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-vision-face-contour-internal/16.0.3/c9cfe329caed53df2d630f13f112ba6c9c8e3a81/play-services-vision-face-contour-internal-16.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:image-labeling-automl:16.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bbe8e86d2d1eb94b58c4348b746f9664/jetified-image-labeling-automl-16.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/image-labeling-automl/16.2.1/dd9b5d2f19724fd26aceaa6cee60ac537cb87294/image-labeling-automl-16.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
